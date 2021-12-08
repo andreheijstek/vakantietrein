@@ -53,9 +53,11 @@ group :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 3.26'
   # Use Rspec for automated tests
-  gem 'rspec'
+  gem 'rspec-rails'
 
   gem 'selenium-webdriver'
+  # Page object library
+  gem 'site_prism'
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
 end
