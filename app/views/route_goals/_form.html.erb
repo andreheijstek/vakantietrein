@@ -1,0 +1,44 @@
+<%= form_with(model: route_goal) do |form| %>
+  <% if route_goal.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(route_goal.errors.count, "error") %> prohibited this route_goal from being saved:</h2>
+
+      <ul>
+        <% route_goal.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :from, style: "display: block" %>
+    <%= form.text_field :from %>
+  </div>
+
+  <div>
+    <%= form.label :to, style: "display: block" %>
+    <%= form.text_field :to %>
+  </div>
+
+  <div>
+    <%= form.label :vertrek, "vertrek", value: true %>
+    <%= form.radio_button :vertrek, true, checked: true, value: true %>
+    <%= form.label :vertrek, "aankomst", value: false %>
+    <%= form.radio_button :vertrek, false, value: false %>
+  </div>
+
+  <div>
+    <%= form.label :date, style: "display: block" %>
+    <%= form.date_field :date %>
+  </div>
+
+  <div>
+    <%= form.label :moment, style: "display: block" %>
+    <%= form.text_field :moment %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

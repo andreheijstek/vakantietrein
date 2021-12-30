@@ -1,0 +1,2 @@
+class RouteGoal < ApplicationRecord
+end

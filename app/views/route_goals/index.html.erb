@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Route goals</h1>
+
+<div id="route_goals">
+  <% @route_goals.each do |route_goal| %>
+    <%= render route_goal %>
+    <p>
+      <%= link_to "Show this route goal", route_goal %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New route goal", new_route_goal_path %>

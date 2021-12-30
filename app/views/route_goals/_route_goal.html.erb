@@ -1,0 +1,27 @@
+<div id="<%= dom_id route_goal %>">
+  <p>
+    <strong>From:</strong>
+    <%= route_goal.from %>
+  </p>
+
+  <p>
+    <strong>To:</strong>
+    <%= route_goal.to %>
+  </p>
+
+  <p>
+    <strong>Vertrek:</strong>
+    <%= route_goal.vertrek? ? "vertrek" : "aankomst" %>
+  </p>
+
+  <p>
+    <strong>Date:</strong>
+    <%= route_goal.date %>
+  </p>
+
+  <p>
+    <strong>Moment:</strong>
+    <%= route_goal.moment %>
+  </p>
+
+</div>
