@@ -11,34 +11,35 @@
     </div>
   <% end %>
 
-  <div>
+  <div class="form-group mb-3">
     <%= form.label :from, style: "display: block" %>
-    <%= form.text_field :from %>
+    <%= form.text_field :from, class: "form-control form-control-lg" %>
   </div>
 
-  <div>
+  <div class="form-group mb-3">
     <%= form.label :to, style: "display: block" %>
-    <%= form.text_field :to %>
+    <%= form.text_field :to, class: "form-control form-control-lg" %>
   </div>
 
-  <div>
-    <%= form.label :vertrek, "vertrek", value: true %>
-    <%= form.radio_button :vertrek, true, checked: true, value: true %>
-    <%= form.label :vertrek, "aankomst", value: false %>
-    <%= form.radio_button :vertrek, false, value: false %>
+  <div class="form-group mb-3">
+    <%= form.radio_button :vertrek, true, checked: true, value: true, class: "btn-check", id: "vertrek", autocomplete: "off" %>
+    <%= form.label :vertrek, "vertrek", value: true, class: "btn btn-primary", for: "vertrek" %>
+    <%= form.radio_button :vertrek, false, value: false, class: "btn-check", id: "aankomst", autocomplete: "off" %>
+    <%= form.label :vertrek, "aankomst", value: false, class: "btn btn-secondary", for: "aankomst" %>
   </div>
 
-  <div>
+  <div class="form-group mb-3">
     <%= form.label :date, style: "display: block" %>
-    <%= form.date_field :date %>
+    <%= form.date_field :date, class: "form-control form-control-lg" %>
   </div>
 
-  <div>
+  <div class="form-group mb-3">
     <%= form.label :moment, style: "display: block" %>
     <%= form.text_field :moment %>
   </div>
 
-  <div>
-    <%= form.submit %>
+  <div class="form-group mt-3">
+    <%= form.submit class: "btn btn-outline-primary" %>
+    <%= link_to "Back to route goals", route_goals_path, class: "btn btn-outline-primary" %>
   </div>
 <% end %>
