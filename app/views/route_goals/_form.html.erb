@@ -11,6 +11,8 @@
     </div>
   <% end %>
 
+<!--  TODO: Ik moet nu met de hand steeds ongeveer dezelfde stijlen toevoegen-->
+<!--  voor allerlei elementen. Dat moet toch handiger kunnen!-->
   <div class="form-group mb-3">
     <%= form.label :from, style: "display: block" %>
     <%= form.text_field :from, class: "form-control form-control-lg" %>
@@ -39,7 +41,7 @@
   </div>
 
   <div class="form-group mt-3">
-    <%= form.submit class: "btn btn-outline-primary" %>
-    <%= link_to "Back to route goals", route_goals_path, class: "btn btn-outline-primary" %>
+    <%= form.submit class: "btn btn-outline-primary", id: "submit_route_goal" %>
+    <%= link_to "Back to route goals", route_goals_path, class: "btn btn-outline-primary", id: "back_to_route_goals" %>
   </div>
 <% end %>
