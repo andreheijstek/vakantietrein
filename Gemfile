@@ -15,6 +15,8 @@ gem "importmap-rails"
 gem "pg"
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
+# Pundit for authorization
+gem "pundit"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.0"
 # Use Sass to process CSS
@@ -27,10 +29,16 @@ gem "stimulus-rails"
 gem "turbo-rails"
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
+# Warden
+gem "warden"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
+  # Use factory bot to manufacture objects, mostly for testing
+  gem "factory_bot"
+  # Use Faker to fake test data
+  gem "faker"
   # Use Rspec for testing
   gem "rspec-rails"
   # Use selenium to control web pages for testing

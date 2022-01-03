@@ -17,6 +17,6 @@ class NewRouteGoalPage < SitePrism::Page
   element :moment_field, "#route_goal_moment"
 
   element :create_route_goal_button, "#submit_route_goal"
-  element :back_to_route_goals_button, "#niks"
+  element :back_to_route_goals_button, "#back_to_route_goals"
 
 end
