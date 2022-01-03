@@ -13,6 +13,6 @@ describe "route_goals", type: :system do
       n.create_route_goal_button.click
     end
 
-    expect(true).to eq(false)
+    expect(page).to have_content("Route goal was successfully created")
   end
 end

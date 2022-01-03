@@ -25,9 +25,6 @@ class RouteGoalsController < ApplicationController
 
     respond_to do |format|
       if @route_goal.save
-        pp @route_goal
-        puts "*" * 40
-        pp params
         format.html { redirect_to route_goal_url(@route_goal), notice: "Route goal was successfully created." }
         format.json { render :show, status: :created, location: @route_goal }
       else
@@ -41,9 +38,6 @@ class RouteGoalsController < ApplicationController
   def update
     respond_to do |format|
       if @route_goal.update(route_goal_params)
-        pp @route_goal
-        puts "*" * 40
-        pp params
         format.html { redirect_to route_goal_url(@route_goal), notice: "Route goal was successfully updated." }
         format.json { render :show, status: :ok, location: @route_goal }
       else
