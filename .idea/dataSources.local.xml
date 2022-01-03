@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="RM-212.4746.90">
+    <data-source name="Rails vakantietrein: development" uuid="f036ea8f-e295-45d2-ad43-7aabdbcd5887">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+      <auth-provider>pgpass</auth-provider>
+      <schema-mapping />
+    </data-source>
+    <data-source name="Rails vakantietrein: production" uuid="c7ec9a49-af92-4b39-81a2-bd7fb104a4a5">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+      <schema-mapping />
+    </data-source>
+    <data-source name="Rails vakantietrein: cucumber" uuid="89f1988c-797f-4d23-ac6e-78c7fc339d7f">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+      <schema-mapping />
+    </data-source>
+    <data-source name="Rails vakantietrein: test" uuid="a826fb0f-93b8-481f-bce0-e73a5fd3021a">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>
