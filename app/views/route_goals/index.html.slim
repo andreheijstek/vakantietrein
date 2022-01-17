@@ -1,0 +1,10 @@
+p[style="color: green"]
+  = notice
+h1
+  | Route goals
+#route_goals
+  - @route_goals.each do |route_goal|
+    = render route_goal
+    p
+      = link_to "Show this route goal", route_goal
+= link_to "New route goal", new_route_goal_path

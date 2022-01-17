@@ -1,0 +1,30 @@
+= form_with(model: route_goal) do |form|
+  - if route_goal.errors.any?
+    div[style="color: red"]
+      h2
+        = pluralize(route_goal.errors.count, "error")
+        |  prohibited this route_goal from being saved:
+      ul
+        - route_goal.errors.each do |error|
+          li
+            = error.full_message
+  .form-group.mb-3
+    = form.label :from, style: "display: block"
+    = form.text_field :from, class: "form-control form-control-lg"
+  .form-group.mb-3
+    = form.label :to, style: "display: block"
+    = form.text_field :to, class: "form-control form-control-lg"
+    .form-group.mb-3
+    = form.radio_button :vertrek, true, class: "btn-check", id: "vertrek", autocomplete: "off"
+    = form.label :vertrek, "vertrek", class: "btn btn-primary", for: "vertrek"
+    = form.radio_button :vertrek, false, class: "btn-check", id: "aankomst", autocomplete: "off"
+    = form.label :vertrek, "aankomst", class: "btn btn-secondary", for: "aankomst"
+  .form-group.mb-3
+    = form.label :date, style: "display: block"
+    = form.date_field :date, class: "form-control form-control-lg"
+  .form-group.mb-3
+    = form.label :moment, style: "display: block"
+    = form.text_field :moment
+  .form-group.mt-3
+    = form.submit class: "btn btn-outline-primary", id: "submit_route_goal"
+    = link_to "Back to route goals", route_goals_path, class: "btn btn-outline-primary", id: "back_to_route_goals"

@@ -64,6 +64,8 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     autoprefixer-rails (10.4.0.0)
       execjs (~> 2)
+    awesome_print (1.9.2)
+    backtrace (0.3.0)
     bindex (0.8.1)
     bootsnap (1.9.3)
       msgpack (~> 1.0)
@@ -82,6 +84,7 @@ GEM
       regexp_parser (>= 1.5, < 3.0)
       xpath (~> 3.2)
     childprocess (4.1.0)
+    coderay (1.1.3)
     concurrent-ruby (1.1.9)
     crass (1.0.6)
     cssbundling-rails (1.0.0)
@@ -123,6 +126,9 @@ GEM
       racc (~> 1.4)
     pg (1.2.3)
     popper_js (2.9.3)
+    pry (0.14.1)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
     public_suffix (4.0.6)
     puma (5.5.2)
       nio4r (~> 2.0)
@@ -200,6 +206,9 @@ GEM
       capybara (~> 3.15)
       site_prism-all_there (>= 0.3.1, < 1.0)
     site_prism-all_there (0.3.2)
+    slim (4.1.0)
+      temple (>= 0.7.6, < 0.9)
+      tilt (>= 2.0.6, < 2.1)
     spring (4.0.0)
     sprockets (4.0.2)
       concurrent-ruby (~> 1.0)
@@ -210,6 +219,7 @@ GEM
       sprockets (>= 3.0.0)
     stimulus-rails (1.0.2)
       railties (>= 6.0.0)
+    temple (0.8.2)
     thor (1.1.0)
     tilt (2.0.10)
     turbo-rails (1.0.0)
@@ -235,6 +245,8 @@ PLATFORMS
   x86_64-darwin-20
 
 DEPENDENCIES
+  awesome_print
+  backtrace
   bootsnap
   bootstrap
   cssbundling-rails
@@ -243,6 +255,7 @@ DEPENDENCIES
   faker
   importmap-rails
   pg
+  pry
   puma (~> 5.0)
   pundit
   rack-mini-profiler
@@ -251,6 +264,7 @@ DEPENDENCIES
   sassc-rails
   selenium-webdriver
   site_prism
+  slim
   spring
   sprockets-rails
   stimulus-rails

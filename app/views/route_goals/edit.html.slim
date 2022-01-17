@@ -1,0 +1,8 @@
+h1
+  | Editing route goal
+= render "form", route_goal: @route_goal
+br
+div
+  = link_to "Show this route goal", @route_goal
+  |  | 
+  = link_to "Back to route goals", route_goals_path

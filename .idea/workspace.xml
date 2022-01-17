@@ -5,14 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfe2a50f-2511-4bd0-a956-6575f9dbe26e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/views/route_goals/_form.html.slim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foreman" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/npm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vakantietrein.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vakantietrein.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/route_goals/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/route_goals/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/route_goals/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/route_goals/_route_goal.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/route_goals/_route_goal.html.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/route_goals/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/route_goals/edit.html.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/route_goals/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/route_goals/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/route_goals/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/route_goals/new.html.slim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/examples.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spec/examples.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/page_objects/new_route_goal.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/page_objects/new_route_goal_page.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/rails_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/page_objects/new_route_goal_page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/page_objects/new_route_goal_page.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/system/route_goal_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/system/route_goal_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +62,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/spec/system" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -63,6 +72,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -188,7 +198,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641138076977</updated>
-      <workItem from="1641138082125" duration="10137000" />
+      <workItem from="1641138082125" duration="15230000" />
+      <workItem from="1642445307185" duration="2124000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,23 @@
+| <div id="
+= dom_id route_goal
+| "> 
+p
+  strong
+    | From:
+  = route_goal.from
+p
+  strong
+    | To:
+  = route_goal.to
+p
+  strong
+    | Vertrek:
+  = route_goal.vertrek? ? "vertrek" : "aankomst"
+p
+  strong
+    | Date:
+  = route_goal.date
+p
+  strong
+    | Moment:
+  = route_goal.moment

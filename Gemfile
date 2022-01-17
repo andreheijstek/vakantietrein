@@ -21,6 +21,8 @@ gem "pundit"
 gem "rails", "~> 7.0.0"
 # Use Sass to process CSS
 gem "sassc-rails"
+# Use slim as template language instead of ERB
+gem "slim"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
@@ -33,12 +35,19 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "warden"
 
 group :development, :test do
+  # Great Ruby debugging companion: pretty print Ruby objects to visualize their structure.
+  # Supports custom object formatting via plugins
+  gem "awesome_print"
+  # A Ruby backtrace nicely printed.
+  gem "backtrace"
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
   # Use factory bot to manufacture objects, mostly for testing
   gem "factory_bot"
   # Use Faker to fake test data
   gem "faker"
+  # Use Pry for debugging
+  gem "pry"
   # Use Rspec for testing
   gem "rspec-rails"
   # Use selenium to control web pages for testing
