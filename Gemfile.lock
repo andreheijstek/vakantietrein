@@ -111,6 +111,7 @@ GEM
     faker (2.20.0)
       i18n (>= 1.8.11, < 2)
     ffi (1.15.5)
+    foreman (0.87.2)
     globalid (1.0.0)
       activesupport (>= 5.0)
     i18n (1.10.0)
@@ -228,6 +229,15 @@ GEM
       unicode-display_width (>= 1.4.0, < 3.0)
     rubocop-ast (1.15.1)
       parser (>= 3.0.1.1)
+    rubocop-performance (1.13.3)
+      rubocop (>= 1.7.0, < 2.0)
+      rubocop-ast (>= 0.4.0)
+    rubocop-rails (2.14.2)
+      activesupport (>= 4.2.0)
+      rack (>= 1.1)
+      rubocop (>= 1.7.0, < 2.0)
+    rubocop-rspec (2.9.0)
+      rubocop (~> 1.19)
     ruby-progressbar (1.11.0)
     rubyzip (2.3.2)
     sassc (2.4.0)
@@ -298,6 +308,7 @@ DEPENDENCIES
   debug
   factory_bot
   faker
+  foreman
   importmap-rails
   pg
   pry
@@ -307,8 +318,9 @@ DEPENDENCIES
   rails (~> 7.0.0)
   rspec-rails
   rubocop
-  sassc
-  sassc-rails
+  rubocop-performance
+  rubocop-rails
+  rubocop-rspec
   selenium-webdriver
   site_prism
   slim

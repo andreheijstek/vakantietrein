@@ -12,6 +12,7 @@ gem 'bootsnap', require: false
 gem 'bootstrap'
 # CSS bundling is required when using bootstrap
 gem 'cssbundling-rails'
+gem 'foreman'
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem 'importmap-rails'
 # use postgres as database
@@ -24,10 +25,10 @@ gem 'pundit'
 gem 'rails', '~> 7.0.0'
 # Use Rubocop to check static code quality
 gem 'rubocop'
-# sass
-gem 'sassc'
-# Use Sass to process CSS
-gem 'sassc-rails'
+gem 'rubocop-performance'
+gem 'rubocop-rails'
+gem 'rubocop-rspec'
+
 # Use slim as template language instead of ERB
 gem 'slim'
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]

@@ -2,10 +2,22 @@
   "name": "vakantietrein",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/andreheijstek/vakantietrein.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreheijstek/vakantietrein.git"
+  },
   "author": "Andre Heijstek <andre.heijstek@hey.com>",
   "license": "MIT",
   "scripts": {
-    "build:css": "sass ./app/assets/stylesheets/application.bootstrap.scss ./app/assets/builds/application.css --no-source-map --load-path=node_modules"
-  }
+    "build:css": "sass ./app/assets/stylesheets/application.sass.scss ./app/assets/builds/application.css --no-source-map --load-path=node_modules"
+  },
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "bugs": {
+    "url": "https://github.com/andreheijstek/vakantietrein/issues"
+  },
+  "homepage": "https://github.com/andreheijstek/vakantietrein#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
 }

@@ -1,11 +1,11 @@
 Arguments: 
-  /Users/andreheijstek/.nvm/versions/node/v10.15.3/bin/node /usr/local/Cellar/yarn/1.22.17_2/libexec/bin/yarn.js add vakantietrein
+  /Users/andreheijstek/.nvm/versions/node/v10.15.3/bin/node /usr/local/Cellar/yarn/1.22.18/libexec/bin/yarn.js build:css
 
 PATH: 
-  /Users/andreheijstek/.nvm/versions/node/v10.15.3/bin:/usr/local/sbin:/usr/local/opt/v8@3.15/bin:/Users/andreheijstek/.rbenv/shims:/Users/andreheijstek/.rbenv/bin:/Users/andreheijstek/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/git/bin:/Users/andreheijstek/.rbenv/bin
+  /Users/andreheijstek/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/bin:/Users/andreheijstek/.rbenv/versions/3.0.0/bin:/usr/local/Cellar/rbenv/1.2.0/libexec:/Users/andreheijstek/.nvm/versions/node/v10.15.3/bin:/usr/local/sbin:/usr/local/opt/v8@3.15/bin:/Users/andreheijstek/.rbenv/shims:/Users/andreheijstek/.rbenv/bin:/Users/andreheijstek/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/git/bin
 
 Yarn version: 
-  1.22.17
+  1.22.18
 
 Node version: 
   10.15.3
@@ -14,20 +14,25 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/vakantietrein: Not found
-      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:67029:18)
-      at Request.self.callback (/usr/local/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:140883:22)
-      at Request.emit (events.js:189:13)
-      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:141855:10)
-      at Request.emit (events.js:189:13)
-      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:141777:12)
-      at Object.onceWrapper (events.js:277:13)
-      at IncomingMessage.emit (events.js:194:15)
-      at endReadableNT (_stream_readable.js:1125:12)
-      at process._tickCallback (internal/process/next_tick.js:63:19)
+  SyntaxError: /Users/andreheijstek/RubymineProjects/vakantietrein/package.json: Unexpected token / in JSON at position 233
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.18/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.18/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.18/libexec/lib/cli.js:321:13
 
 npm manifest: 
-  No manifest
+  {
+    "name": "vakantietrein",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/andreheijstek/vakantietrein.git",
+    "author": "Andre Heijstek <andre.heijstek@hey.com>",
+    "license": "MIT",
+    "scripts": {
+  //    "build:css": "sassc ./app/assets/stylesheets/application.bootstrap.scss ./app/assets/builds/application.css --no-source-map --load-path=node_modules"
+    }
+  }
 
 yarn manifest: 
   No manifest

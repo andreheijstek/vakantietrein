@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# Main Controller
 class RouteGoalsController < ApplicationController
   before_action :set_route_goal, only: %i[show edit update destroy]
 
@@ -21,7 +22,6 @@ class RouteGoalsController < ApplicationController
 
   # POST /route_goals or /route_goals.json
   def create
-    logger.debug 'start create'
     @route_goal = RouteGoal.new(route_goal_params)
 
     respond_to do |format|
