@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class RouteGoalsController < ApplicationController
   before_action :set_route_goal, only: %i[show edit update destroy]
 

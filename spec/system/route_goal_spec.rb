@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 describe 'route_goals', type: :system do
   # it 'creates correctly' do
   #   NewRouteGoalPage.new.tap do |n|

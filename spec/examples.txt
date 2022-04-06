@@ -1,5 +1,5 @@
 example_id                            | status | run_time        |
 ------------------------------------- | ------ | --------------- |
-./spec/models/route_goal_spec.rb[1:1] | passed | 0.05331 seconds |
-./spec/system/route_goal_spec.rb[1:1] | passed | 2.95 seconds    |
-./spec/system/route_goal_spec.rb[1:2] | passed | 18.01 seconds   |
+./spec/models/route_goal_spec.rb[1:1] | passed | 0.00421 seconds |
+./spec/system/route_goal_spec.rb[1:1] | passed | 3.01 seconds    |
+./spec/system/route_goal_spec.rb[1:2] | passed | 17.58 seconds   |
