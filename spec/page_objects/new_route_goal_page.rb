@@ -12,7 +12,8 @@ class NewRouteGoalPage < SitePrism::Page
 
   element :from_field, "#route_goal_from"
   element :to_field, "#route_goal_to"
-  element :aankomst_vertrek_radio_button, :radio_button, 'Vertrek'
+  element :arrival_radio_button, :radio_button, 'arrival'
+  element :departure_radio_button, :radio_button, 'departure'
   element :date_field, "#route_goal_date"
   element :moment_field, "#route_goal_moment"
 

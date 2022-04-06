@@ -5,26 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfe2a50f-2511-4bd0-a956-6575f9dbe26e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/db/migrate/20220218204626_rename_vertrek_to_date_time_reference.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/tasks/auto_annotate_models.rake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vakantietrein.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vakantietrein.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.bootstrap.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/route_goals_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/route_goals_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/route_goal.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/route_goal.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/route_goals/_form.html.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/route_goals/_form.html.slim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/route_goals/_route_goal.html.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/route_goals/_route_goal.html.slim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dev" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dev" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/assets.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/examples.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spec/examples.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/page_objects/new_route_goal_page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/page_objects/new_route_goal_page.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/rails_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/system/route_goal_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/system/route_goal_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -259,7 +242,7 @@
       <workItem from="1646044365811" duration="598000" />
       <workItem from="1646341796778" duration="598000" />
       <workItem from="1648186593838" duration="141000" />
-      <workItem from="1648186779679" duration="11218000" />
+      <workItem from="1648186779679" duration="12117000" />
     </task>
     <servers />
   </component>
