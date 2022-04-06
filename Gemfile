@@ -2,7 +2,8 @@ source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.0.0"
-
+# Add a comment summarizing the current schema
+gem "annotate"
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 # Use bootstrap als front-end library
@@ -19,6 +20,8 @@ gem "puma", "~> 5.0"
 gem "pundit"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.0"
+# sass
+gem "sassc"
 # Use Sass to process CSS
 gem "sassc-rails"
 # Use slim as template language instead of ERB

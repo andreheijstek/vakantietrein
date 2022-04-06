@@ -67,6 +67,7 @@ RSpec.configure do |config|
   end
 
   Capybara.server = :puma, {Silent: true}
+  Capybara.automatic_label_click = true
 
   config.include Warden::Test::Helpers, type: :feature
   config.after(type: :feature) { Warden.test_reset! }

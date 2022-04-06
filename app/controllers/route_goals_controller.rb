@@ -21,6 +21,7 @@ class RouteGoalsController < ApplicationController
 
   # POST /route_goals or /route_goals.json
   def create
+    logger.debug "start create"
     @route_goal = RouteGoal.new(route_goal_params)
 
     respond_to do |format|
@@ -65,6 +66,6 @@ class RouteGoalsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def route_goal_params
-      params.require(:route_goal).permit(:from, :to, :vertrek, :date, :moment)
+      params.require(:route_goal).permit(:from, :to, :date_time_reference, :date, :moment)
     end
 end

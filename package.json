@@ -1,0 +1,11 @@
+{
+  "name": "vakantietrein",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/andreheijstek/vakantietrein.git",
+  "author": "Andre Heijstek <andre.heijstek@hey.com>",
+  "license": "MIT",
+  "scripts": {
+    "build:css": "sass ./app/assets/stylesheets/application.bootstrap.scss ./app/assets/builds/application.css --no-source-map --load-path=node_modules"
+  }
+}

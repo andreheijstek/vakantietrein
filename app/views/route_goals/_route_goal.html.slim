@@ -11,8 +11,8 @@ p
   = route_goal.to
 p
   strong
-    | Vertrek:
-  = route_goal.vertrek? ? "vertrek" : "aankomst"
+    | Reference:
+  = route_goal.date_time_reference_string
 p
   strong
     | Date:

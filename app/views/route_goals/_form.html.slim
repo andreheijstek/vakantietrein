@@ -15,10 +15,10 @@
     = form.label :to, style: "display: block"
     = form.text_field :to, class: "form-control form-control-lg"
     .form-group.mb-3
-    = form.radio_button :vertrek, true, class: "btn-check", id: "vertrek", autocomplete: "off"
-    = form.label :vertrek, "vertrek", class: "btn btn-primary", for: "vertrek"
-    = form.radio_button :vertrek, false, class: "btn-check", id: "aankomst", autocomplete: "off"
-    = form.label :vertrek, "aankomst", class: "btn btn-secondary", for: "aankomst"
+    = form.radio_button :date_time_reference, true, class: "btn-check", id: "vertrek", autocomplete: "off"
+    = form.label :date_time_reference, "departure", class: "btn btn-primary", for: "vertrek"
+    = form.radio_button :date_time_reference, false, class: "btn-check", id: "aankomst", autocomplete: "off"
+    = form.label :date_time_reference, "arrival", class: "btn btn-secondary", for: "aankomst"
   .form-group.mb-3
     = form.label :date, style: "display: block"
     = form.date_field :date, class: "form-control form-control-lg"
