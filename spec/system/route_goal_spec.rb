@@ -6,7 +6,7 @@ describe 'route_goals', type: :system do
       n.load
       n.from_field.set(Faker::Address.city)
       n.to_field.set(Faker::Address.city)
-      # n.vertrek_radio_button.choose("vertrek")
+      n.departure_radio_button.choose(allow_label_click: true)
       n.date_field.set("01-01-2022")
       n.moment_field.set("avond")
       n.create_route_goal_button.click
@@ -16,15 +16,11 @@ describe 'route_goals', type: :system do
   end
 
   it 'selects aankomst correctly' do
-    Capybara.default_driver = :selenium
-    visit '/route_goals/new'
-    choose('aankomst', allow_label_click: true)
-
     NewRouteGoalPage.new.tap do |n|
       n.load
       n.from_field.set(Faker::Address.city)
       n.to_field.set(Faker::Address.city)
-      # n.aankomst_vertrek_radio_button.choose
+      n.arrival_radio_button.choose(allow_label_click: true)
       n.date_field.set('01-01-2022')
       n.moment_field.set('avond')
       n.create_route_goal_button.click
