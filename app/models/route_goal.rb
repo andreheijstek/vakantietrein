@@ -27,12 +27,12 @@ class RouteGoal < ApplicationRecord
     when :arrival
       self.date_time_reference = false
     else
-      raise "Only :departure or :arrival are allowed"
+      raise 'Only :departure or :arrival are allowed'
     end
   end
 
-  # Todo: naar decorator?
+  # TODO: naar decorator?
   def date_time_reference_string
-    date_time_reference ? "departure" : "arrival"
+    date_time_reference ? 'departure' : 'arrival'
   end
 end

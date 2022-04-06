@@ -8,16 +8,15 @@ require 'site_prism/all_there' # Optional but needed to perform more complex mat
 
 # Page object for route_goals/new page
 class NewRouteGoalPage < SitePrism::Page
-  set_url "/route_goals/new"
+  set_url '/route_goals/new'
 
-  element :from_field, "#route_goal_from"
-  element :to_field, "#route_goal_to"
+  element :from_field, '#route_goal_from'
+  element :to_field, '#route_goal_to'
   element :arrival_radio_button, :radio_button, 'arrival'
   element :departure_radio_button, :radio_button, 'departure'
-  element :date_field, "#route_goal_date"
-  element :moment_field, "#route_goal_moment"
+  element :date_field, '#route_goal_date'
+  element :moment_field, '#route_goal_moment'
 
-  element :create_route_goal_button, "#submit_route_goal"
-  element :back_to_route_goals_button, "#back_to_route_goals"
-
+  element :create_route_goal_button, '#submit_route_goal'
+  element :back_to_route_goals_button, '#back_to_route_goals'
 end
