@@ -11,7 +11,7 @@ class RouteGoalsController < ApplicationController
 
   # GET /route_goals/1 or /route_goals/1.json
   def show
-    duration = 600
+    duration = 400
     locals duration: duration
   end
 
