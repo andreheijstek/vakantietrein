@@ -59,9 +59,9 @@ group :development, :test do
   # Use Rspec for testing
   gem 'rspec-rails'
   # Use selenium to control web pages for testing
-  gem 'selenium-webdriver'
-  # Use SitePrism as page object model library for testing
   gem 'site_prism'
+  # Use webdriver instead of selenium or chrome webdriver
+  gem 'webdrivers'
 end
 
 group :development do
