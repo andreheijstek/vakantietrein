@@ -14,14 +14,6 @@
 #  updated_at          :datetime         not null
 #
 class RouteGoal < ApplicationRecord
-  def departure
-    date_time_reference
-  end
-
-  def arrival
-    !date_time_reference
-  end
-
   def date_time_reference_value=(value)
     case value
     when :departure

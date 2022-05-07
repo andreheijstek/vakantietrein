@@ -67,6 +67,8 @@ end
 group :development do
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   gem 'rack-mini-profiler'
+  # rails_best_practices is a code metric tool to check the quality of Rails code.
+  gem "rails_best_practices"
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem 'web-console'
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]

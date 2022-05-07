@@ -1,8 +1,13 @@
 p[style="color: green"]
   = notice
 = render @route_goal
+
+div
+  svg width="600" height="110"
+    rect width=duration height="30" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)"
+
 div
   = link_to "Edit this route goal", edit_route_goal_path(@route_goal)
-  |  | 
+  |  |
   = link_to "Back to route goals", route_goals_path
   = button_to "Destroy this route goal", @route_goal, method: :delete
