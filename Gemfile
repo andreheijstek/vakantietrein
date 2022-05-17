@@ -54,12 +54,20 @@ group :development, :test do
   gem 'factory_bot'
   # Use Faker to fake test data
   gem 'faker'
+  # performance monitoring
+  gem 'flamegraph'
+  # performance monitoring
+  gem 'memory_profiler'
   # Use Pry for debugging
   gem 'pry'
+  # performance monitoring
+  gem 'rack-mini-profiler'
   # Use Rspec for testing
   gem 'rspec-rails'
   # Use selenium to control web pages for testing
   gem 'site_prism'
+  # performance monitoring
+  gem 'stackprof'
   # Use webdriver instead of selenium or chrome webdriver
   gem 'webdrivers'
 end
