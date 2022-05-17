@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfe2a50f-2511-4bd0-a956-6575f9dbe26e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vakantietrein.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vakantietrein.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tasks/update.rake" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tasks/update.rake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,8 +246,16 @@
       <workItem from="1648186593838" duration="141000" />
       <workItem from="1648186779679" duration="22052000" />
       <workItem from="1649333140332" duration="598000" />
-      <workItem from="1649830215558" duration="17437000" />
+      <workItem from="1649830215558" duration="21111000" />
     </task>
+    <task id="LOCAL-00001" summary="Add gems for performance monitoring">
+      <created>1652812395823</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652812395823</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +263,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Add gems for performance monitoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add gems for performance monitoring" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/vakantietrein@route_goal_spec.rcov" NAME="route_goal_spec Coverage Results" MODIFIED="1645644187876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="vakantietrein" />

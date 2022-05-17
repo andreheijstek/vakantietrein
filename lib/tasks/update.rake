@@ -5,11 +5,13 @@
 
 desc "update bundle"
 task :bundle_update do
+  system "cd /Users/andreheijstek/RubymineProjects/vakantietrein"
   system "bundle update"
 end
 
 desc "upgrade brew"
 task :brew_upgrade do
+  system "cd /Users/andreheijstek/RubymineProjects/vakantietrein"
   system "brew upgrade"
 end
 
