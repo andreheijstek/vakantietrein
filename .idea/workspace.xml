@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfe2a50f-2511-4bd0-a956-6575f9dbe26e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/tasks/test.rake" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tasks/test.rake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +20,7 @@
       <list>
         <option value="RSpec Test Template" />
         <option value="Ruby File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -56,6 +60,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -246,7 +251,7 @@
       <workItem from="1649333140332" duration="598000" />
       <workItem from="1649830215558" duration="22647000" />
       <workItem from="1653042156017" duration="542000" />
-      <workItem from="1653504245155" duration="2060000" />
+      <workItem from="1653504245155" duration="2713000" />
     </task>
     <task id="LOCAL-00001" summary="Add gems for performance monitoring">
       <created>1652812395823</created>
