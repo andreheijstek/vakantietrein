@@ -65,6 +65,8 @@ Style/RedundantFetchBlock:
   Enabled: true
 Style/RedundantFileExtensionInRequire:
   Enabled: true
+Style/StringLiterals:
+  Enabled: false
 
 Metrics/BlockLength:
   Exclude:

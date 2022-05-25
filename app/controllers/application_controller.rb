@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# Main controller
 class ApplicationController < ActionController::Base
   # These groups are equivalent:
   #
@@ -14,4 +15,5 @@ class ApplicationController < ActionController::Base
   def locals(action = nil, hash)
     render action: action, locals: hash
   end
+  # rubocop: enable Style/OptionalArguments
 end
