@@ -17,6 +17,11 @@ task :eslint do
   system "npx eslint ."
 end
 
+desc "run a localhost server"
+task :run do
+  system "node_modules/http-server/bin/http-server src"
+end
+
 desc "test"
 task :test do
   Rake::Task["rubocop"].execute
