@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfe2a50f-2511-4bd0-a956-6575f9dbe26e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/sum.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
@@ -21,6 +21,7 @@
         <option value="RSpec Test Template" />
         <option value="Ruby File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -251,7 +252,7 @@
       <workItem from="1649333140332" duration="598000" />
       <workItem from="1649830215558" duration="22647000" />
       <workItem from="1653042156017" duration="542000" />
-      <workItem from="1653504245155" duration="2713000" />
+      <workItem from="1653504245155" duration="3572000" />
     </task>
     <task id="LOCAL-00001" summary="Add gems for performance monitoring">
       <created>1652812395823</created>
