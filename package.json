@@ -9,7 +9,7 @@
   "author": "Andre Heijstek <andre.heijstek@hey.com>",
   "license": "MIT",
   "scripts": {
-    "build:css": "sass ./app/assets/stylesheets/application.sass.scss ./app/assets/builds/application.css --no-source-map --load-path=node_modules"
+    "test": "jest"
   },
   "description": "This README would normally document whatever steps are necessary to get the application up and running.",
   "bugs": {
@@ -23,11 +23,7 @@
     "eslint": "^8.16.0",
     "eslint-plugin-react": "^7.30.0",
     "http-server": "^14.1.0",
-    "jest": "^28.1.0"
-  },
-  "scripts": {
-    "test": "jest"
+    "jest": "^28.1.0",
+    "karma": "^6.3.20"
   }
 }
-
-
