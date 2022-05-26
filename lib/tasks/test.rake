@@ -14,7 +14,7 @@ end
 
 desc "jest"
 task :jest do
-  system "npm test"
+  system "jest"
 end
 desc "eslint"
 task :eslint do
