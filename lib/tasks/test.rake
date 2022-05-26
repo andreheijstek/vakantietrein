@@ -7,6 +7,14 @@ task :rubocop do
   system "rubocop"
 end
 
+desc "eslint"
+task :eslint do
+  system "npx eslint ."
+end
+
+desc "lint all source code"
+task :lint => [:rubocop, :eslint]
+
 desc "rspec"
 task :rspec do
   system "bundle exec rspec spec/models"
@@ -17,15 +25,19 @@ task :jest do
   system "jest"
 end
 
-desc "eslint"
-task :eslint do
-  system "npx eslint ."
-end
+desc "unit test all source code"
+task :unit_test => [:rspec, :jest]
 
 desc "run a localhost server"
 task :run do
   system "node_modules/http-server/bin/http-server src"
 end
 
-desc "test"
-task :test => [:rubocop, :eslint, :rspec, :jest]
+desc "run all tests"
+task :test do
+  system "bundle exec rspec"
+  system "jest"
+end
+
+desc "check all code, static and dynamic"
+task :check => [:lint, :unit_test]
