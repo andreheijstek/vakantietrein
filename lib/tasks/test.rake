@@ -16,6 +16,7 @@ desc "jest"
 task :jest do
   system "jest"
 end
+
 desc "eslint"
 task :eslint do
   system "npx eslint ."
@@ -27,9 +28,4 @@ task :run do
 end
 
 desc "test"
-task :test do
-  Rake::Task["rubocop"].execute
-  Rake::Task["eslint"].execute
-  Rake::Task["rspec"].execute
-  Rake::Task["jest"].execute
-end
+task :test => [:rubocop, :eslint, :rspec, :jest]
