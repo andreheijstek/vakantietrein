@@ -12,6 +12,10 @@ task :rspec do
   system "bundle exec rspec spec/models"
 end
 
+desc "jest"
+task :jest do
+  system "npm test"
+end
 desc "eslint"
 task :eslint do
   system "npx eslint ."
@@ -27,4 +31,5 @@ task :test do
   Rake::Task["rubocop"].execute
   Rake::Task["eslint"].execute
   Rake::Task["rspec"].execute
+  Rake::Task["jest"].execute
 end
