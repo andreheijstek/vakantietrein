@@ -1,0 +1,1 @@
+{"version":3,"file":"sum.js","sourceRoot":"","sources":["sum.ts"],"names":[],"mappings":"AAAA,MAAM,UAAU,GAAG,CAAC,CAAS,EAAE,CAAS;IACpC,OAAO,CAAC,GAAG,CAAC,CAAA;AAChB,CAAC","sourcesContent":["export function sum(a: number, b: number): number {\n    return a + b\n}\n"]}

@@ -25,6 +25,12 @@ task :jest do
   system "jest"
 end
 
+desc "jasmine"
+task :jasmine do
+  system "yarn tsc app/javascript/**/*.ts"
+  system "yarn test"
+end
+
 desc "unit test all source code"
 task :unit_test => [:rspec, :jest]
 
@@ -34,10 +40,7 @@ task :run do
 end
 
 desc "run all tests"
-task :test do
-  system "bundle exec rspec"
-  system "jest"
-end
+task :test => [:rspec, :jasmine]
 
 desc "check all code, static and dynamic"
 task :check => [:lint, :unit_test]
