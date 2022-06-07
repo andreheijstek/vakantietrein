@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfe2a50f-2511-4bd0-a956-6575f9dbe26e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spec/javascripts/sum.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vakantietrein.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vakantietrein.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/sum.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/sum.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/javascripts/sum.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/support/jasmine.json" beforeDir="false" afterPath="$PROJECT_DIR$/jasmine.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/sum.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/sum.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasmine.json" beforeDir="false" afterPath="$PROJECT_DIR$/jasmine.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/javascripts/sum.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/spec/javascripts/sum.spec.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,7 +256,7 @@
       <workItem from="1653042156017" duration="542000" />
       <workItem from="1653504245155" duration="6459000" />
       <workItem from="1653749514715" duration="2771000" />
-      <workItem from="1654456662479" duration="4887000" />
+      <workItem from="1654456662479" duration="5545000" />
     </task>
     <task id="LOCAL-00001" summary="Add gems for performance monitoring">
       <created>1652812395823</created>

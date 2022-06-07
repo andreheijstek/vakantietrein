@@ -1,4 +1,4 @@
-import { sum } from '../../app/javascript/sum.js'
+import { sum } from '../../app/javascript/sum.ts'
 import assert from 'assert'
 
 describe('add', () => {
