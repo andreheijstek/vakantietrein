@@ -1,7 +1,9 @@
 {
   "name": "vakantietrein",
-  "version": "1.0.0",
-  "main": "index.js",
+  "private": true,
+  "version": "0.0.1",
+  "description": "App to book train rides across Europe",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/andreheijstek/vakantietrein.git"
@@ -9,9 +11,14 @@
   "author": "Andre Heijstek <andre.heijstek@hey.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "cross-env NODE_OPTIONS=--loader=ts-node/esm jasmine --config=jasmine.json"
   },
-  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "keywords": [
+    "vakantie",
+    "trein",
+    "reis",
+    "klimaat"
+  ],
   "bugs": {
     "url": "https://github.com/andreheijstek/vakantietrein/issues"
   },
@@ -23,9 +30,13 @@
     "eslint": "^8.16.0",
     "eslint-plugin-react": "^7.30.0",
     "http-server": "^14.1.0",
+    "@types/jasmine": "^3.10.3",
+    "cross-env": "^7.0.3",
     "jasmine": "^4.1.0",
     "jasmine-core": "^4.1.1",
     "jest": "^28.1.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4",
     "karma": "^6.3.20",
     "karma-chrome-launcher": "^3.1.1",
     "karma-firefox-launcher": "^2.1.2",

@@ -75,6 +75,8 @@ end
 group :development do
   # rails_best_practices is a code metric tool to check the quality of Rails code.
   gem "rails_best_practices"
+  # live reloading of views, great for testing and debugging
+  gem "rails_live_reload"
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem 'web-console'
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
