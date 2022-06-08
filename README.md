@@ -7,7 +7,7 @@
 ####Javascript
 To achieve the front-end visuals I want to build, I have to use a good bit of Javascript. A new technology for me.
 Apparently, ES6 is the new standard for having modules in Javascript (modules help to break-up a large program in smaller elements, you can import functions/variables from modules).
-So, the design choice is to use ES6 and not commonJS (which also has modules, but apparently ES6 is better). Apparently ES6 and ECMAScript are synonyms (or at least very closely related).
+So, the design choice is to use ES6 and not commonJS (which also has modules, but apparently ES6 is better). Apparently ES6 and ECMAScript are synonyms (or at least very closely related). Newer versions of ES6 are ES2016 - ES2022.
 
 Here are some nice basic examples of modules and they happen to work with boxes, just what I need. https://github.com/mdn/js-examples/blob/master/module-examples/basic-modules/modules/square.js
 

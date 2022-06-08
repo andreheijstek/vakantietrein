@@ -1,0 +1,4 @@
+{
+  "description": "sub package.json to allow files in this scope to be ES6",
+  "type": "module"
+}

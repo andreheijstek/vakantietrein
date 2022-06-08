@@ -20,19 +20,14 @@ task :rspec do
   system "bundle exec rspec spec/models"
 end
 
-desc "jest"
-task :jest do
-  system "jest"
-end
-
 desc "jasmine"
 task :jasmine do
-  system "yarn tsc app/javascript/**/*.ts"
+  system "yarn tsc app/javascript/**/"
   system "yarn test"
 end
 
 desc "unit test all source code"
-task :unit_test => [:rspec, :jest]
+task :unit_test => [:rspec]
 
 desc "run a localhost server"
 task :run do
