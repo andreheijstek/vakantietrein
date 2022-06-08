@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfe2a50f-2511-4bd0-a956-6575f9dbe26e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/system/route_goal_train_box.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tasks/test.rake" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tasks/test.rake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/route_goals/show.html.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/route_goals/show.html.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/system/route_goal_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/system/route_goal_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,10 +18,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="RSpec Test Template" />
         <option value="Ruby File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="RSpec Test Template" />
       </list>
     </option>
   </component>
@@ -93,7 +92,7 @@
       <recent name="$PROJECT_DIR$/spec" />
     </key>
   </component>
-  <component name="RunManager" selected="RSpec.route_goal_spec">
+  <component name="RunManager" selected="Ruby.route_goal_train_box">
     <configuration name="route_goal_spec" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="vakantietrein" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
@@ -231,8 +230,28 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
       <method v="2" />
     </configuration>
+    <configuration name="route_goal_train_box" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="vakantietrein" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/spec/system" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/system/route_goal_train_box.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Ruby.route_goal_train_box" />
         <item itemvalue="RSpec.route_goal_spec" />
       </list>
     </recent_temporary>
@@ -284,6 +303,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="Add gems for performance monitoring" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/vakantietrein@route_goal_train_box.rcov" NAME="route_goal_train_box Coverage Results" MODIFIED="1654703308210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spec/system" MODULE_NAME="vakantietrein" />
     <SUITE FILE_PATH="coverage/vakantietrein@route_goal_spec.rcov" NAME="route_goal_spec Coverage Results" MODIFIED="1645644187876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="vakantietrein" />
   </component>
 </project>

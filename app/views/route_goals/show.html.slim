@@ -8,7 +8,7 @@ div
     - @from_length = 0
     javascript:
       var from_length = document.getElementById('from').getComputedTextLength();
-      console.log(from_length)
+      console.log("from " + from_length)
 
     rect#main_box x="100" y="0" width=duration height="30" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)"
     text#to x="600" y="15" fill="red" #{@route_goal.to}

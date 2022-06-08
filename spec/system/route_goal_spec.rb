@@ -2,11 +2,13 @@
 
 describe 'route_goals', type: :system do
   let(:page) { NewRouteGoalPage.new }
+  let(:from_city) { Faker::Address.city }
+  let(:to_city) {Faker::Address.city }
   before do
     page.tap do |n|
       n.load
-      n.from_field.set(Faker::Address.city)
-      n.to_field.set(Faker::Address.city)
+      n.from_field.set(@from_city)
+      n.to_field.set(@to_city)
       n.departure_radio_button.choose(allow_label_click: true)
       n.date_field.set('01-01-2022')
       n.moment_field.set('avond')
@@ -18,6 +20,9 @@ describe 'route_goals', type: :system do
     page.create_route_goal_button.click
 
     expect(page).to have_content('Route goal was successfully created')
+    expect(page).to have_content(@from_city)
+    expect(page).to have_content(@to_city)
+
   end
 
   it 'selects aankomst correctly' do
