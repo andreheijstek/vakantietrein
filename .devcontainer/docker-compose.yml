@@ -14,3 +14,4 @@ services:
       - "3000:3000"
     environment:
       BUNDLE_PATH: vendor/bundle
+      INTERFACE: "0.0.0.0"
