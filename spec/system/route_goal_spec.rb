@@ -3,7 +3,7 @@
 describe 'route_goals', type: :system do
   let(:page) { NewRouteGoalPage.new }
   let(:from_city) { Faker::Address.city }
-  let(:to_city) {Faker::Address.city }
+  let(:to_city) { Faker::Address.city }
   before do
     page.tap do |n|
       n.load
@@ -22,7 +22,6 @@ describe 'route_goals', type: :system do
     expect(page).to have_content('Route goal was successfully created')
     expect(page).to have_content(@from_city)
     expect(page).to have_content(@to_city)
-
   end
 
   it 'selects aankomst correctly' do

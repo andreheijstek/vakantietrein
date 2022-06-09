@@ -12,6 +12,7 @@ AllCops:
     - 'bin/**/*'
     - 'lib/**/*'
     - 'tmp'
+    - 'vendor/**/*'
 
 #Rubocop.flags:
 #  --disable-pending-cops

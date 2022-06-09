@@ -41,3 +41,6 @@
 
 # Ignore test logs
 spec/examples.txt
+
+# Ignore bundler files
+/vendor/bundle

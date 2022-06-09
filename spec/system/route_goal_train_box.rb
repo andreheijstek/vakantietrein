@@ -3,7 +3,7 @@
 describe 'route_goals', type: :system do
   let(:page) { NewRouteGoalPage.new }
   let(:from_city) { Faker::Address.city }
-  let(:to_city) {Faker::Address.city }
+  let(:to_city) { Faker::Address.city }
   before do
     page.load
     page.from_field.set(@from_city)
@@ -17,4 +17,3 @@ describe 'route_goals', type: :system do
     expect(box.tag_name).to eq('rect')
   end
 end
-

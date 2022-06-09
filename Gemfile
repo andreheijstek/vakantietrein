@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.0.0'
+ruby '3.0.2'
 # Add a comment summarizing the current schema
 gem 'annotate'
 # Reduces boot times through caching; required in config/boot.rb

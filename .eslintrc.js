@@ -24,5 +24,10 @@ module.exports = {
     react: {
       "version": "16.12.0",
     }
-  }
+  },
+  "overrides": [
+    {
+      "files": ["app/**/*.js"]
+    }
+  ]
 }

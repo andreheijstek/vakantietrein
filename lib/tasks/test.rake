@@ -9,7 +9,7 @@ end
 
 desc "eslint"
 task :eslint do
-  system "npx eslint ."
+  system "npx eslint app"
 end
 
 desc "lint all source code"
@@ -22,7 +22,7 @@ end
 
 desc "jasmine"
 task :jasmine do
-  system "yarn tsc app/javascript/**/"
+  system "yarn tsc app/javascript/**/*.ts"
   system "yarn test"
 end
 

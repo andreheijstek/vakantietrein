@@ -1695,6 +1695,11 @@ functions-have-names@^1.2.2:
   resolved "https://registry.npmjs.org/functions-have-names/-/functions-have-names-1.2.3.tgz"
   integrity sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==
 
+gcc@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/gcc/-/gcc-1.0.2.tgz#15dfb8ed7f955063731769de3aacdb5a3859f067"
+  integrity sha512-Hici6u9iQBJnQb1VPGveyvSKMHktPjwgp/RZgtWTxqGTCA0ILaV+ySoClgvhWrzAjPxyl8UU/iapcD5Z3TPhlQ==
+
 gensync@^1.0.0-beta.2:
   version "1.0.0-beta.2"
   resolved "https://registry.npmjs.org/gensync/-/gensync-1.0.0-beta.2.tgz"

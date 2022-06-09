@@ -2,6 +2,9 @@
 
 ##Technology choices
 
+###Development environment
+Setup using dev-containers, following instructions from Graceful.dev
+
 ###Front-end
 
 ####Javascript
