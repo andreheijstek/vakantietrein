@@ -28,7 +28,7 @@ gem 'rubocop'
 gem 'rubocop-performance'
 gem 'rubocop-rails'
 gem 'rubocop-rspec'
-=begin
+
 
 # Use slim as template language instead of ERB
 gem 'slim'
@@ -83,4 +83,4 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   gem 'spring'
 end
-=end
+

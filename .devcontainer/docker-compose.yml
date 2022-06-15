@@ -10,7 +10,7 @@ services:
         target: /workspace
       - type: bind
         source: ${HOME}${USERPROFILE}/.ssh
-        target: /home/developer/.ssh
+        target: /root/.ssh
     working_dir: /workspace
     command: sleep infinity
     ports:
